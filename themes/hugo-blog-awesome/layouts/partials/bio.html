@@ -1,0 +1,56 @@
+{{ $avatar_img := .Site.Params.author.avatar }} {{ $avatar_img_alt :=
+.Site.Params.author.name }} {{ $image := resources.Get $avatar_img }}
+<div class="author">
+	{{ with $image }} {{ $image := $image.Fill "100x100 webp" }}
+	<img
+		class="author-avatar"
+		src="{{ $image.RelPermalink }}"
+		alt="{{ $avatar_img_alt }}"
+		width="{{ .Width }}"
+		height="{{ .Height }}"
+	/>
+	{{ end }}
+	<!-- <div>&nbsp;</div>
+	<div class="footer_social-icons">
+		{{- partial "socialIcons.html" site.Params.socialIcons -}}
+	</div> -->
+	<h2 class="author-name">{{ .Site.Params.author.intro }}</h2>
+	<p>
+		<a href="https://www.artstation.com/artist/joakimysland" target="_blank">Artstation</a> | 
+		<a href="https://www.instagram.com/joakimysland/" target="_blank">Instagram</a> | 
+		<a href="https://www.linkedin.com/in/joakimysland" target="_blank">Linkedin</a> | 
+		<a href="https://www.youtube.com/@JoakimYsland" target="_blank">Youtube</a>
+	</p>
+	<!-- <div style="max-width: 100%; text-align: justify" class="author-bio"> -->
+</div>
+<div class="page-content">
+	<div style="max-width: 100%">
+		<!-- <p style="max-width: 95%; text-align: justify" class="author-bio"> -->
+		<!-- <a href="Link">Text</a> -->
+		
+		<h2>World of Warcraft</h2>
+		<p>Dragonflight Mythic+ Season 3 Teleport Cheat Sheet</p>
+
+		<h2>Lost Ark</h2>
+		<p>Exploration Maps — Exploration maps to help you with your Adventurer’s Tome and Mokoko Seeds. Labeled markers and mapped hidden areas.</p>
+		<p>Combat Engravings Cheat Sheet — Complete list with all Combat Engravings in alphabetical order.</p>
+		<p>Winter Illusion Exchange — How many Tokens do you need each week?</p>
+
+		<h2>New World</h2>
+		<p><a href="https://joakimysland.com/wp-content/uploads/2015/02/New-World-%E2%80%93-Gems-Cheat-Sheet-2021.12.05.jpg" target="_blank">Gems Cheat Sheet</a> — Overview of gem effects for each tier as well as crafting element, cost of cutting, fusing and elemental infusion. <a href="https://www.reddit.com/r/newworldgame/comments/r8wzbz/i_made_a_gems_cheat_sheet/" target="_blank">Post on Reddit</a></p>
+
+		<h2>Advent of Code</h2>
+		<p><a href="https://github.com/JoakimYsland/Advent-of-Code/tree/main/2022" target="_blank">Advent of Code 2022</a><br>
+		<a href="https://github.com/JoakimYsland/Advent-of-Code/tree/main/2021" target="_blank">Advent of Code 2021</a></p>
+
+		<h2>Board Games</h2>
+		<p><a href="https://joakimysland.com/welcome-to-the-dungeon-custom-insert/" target="_blank">Welcome to the Dungeon Custom Insert</a> ⟶ <a href="https://joakimysland.gumroad.com/l/aoaDX" target="_blank">Gumroad</a></p>
+
+		<h2>Minecraft</h2>
+		<p><a href="https://www.curseforge.com/minecraft/texture-packs/np-tools" target="_blank">NP Tools 16×16 Texture Pack</a></p>
+
+		<h2>Wildstar</h2>
+		<p>In 2014 I made a few addons for the MMORPG <a href="https://en.wikipedia.org/wiki/WildStar_(video_game)" target="_blank">Wildstar</a>, most notably <a href="https://www.curseforge.com/wildstar/ws-addons/nprimenameplates" target="_blank">nPrimeNameplates</a> and <a href="https://www.curseforge.com/wildstar/ws-addons/nprimeminimap" target="_blank">nPrimeMinimap</a>, which became quite popular.</p>
+	</div>
+</div>
+
