@@ -1,0 +1,16 @@
+<footer class="footer">
+	<!-- <span class="footer_item"> </span> -->
+	<div class="footer_social-icons">
+		{{- partial "socialIcons.html" site.Params.socialIcons -}}
+	</div>
+	<small class="footer_copyright">
+		© {{ now.Format "2006" }} {{ .Site.Params.author.name }}<br>
+		Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noreferrer noopener">Hugo Blog Awesome</a>
+		<!-- theme on <a href="https://gohugo.io" target="_blank" rel="noreferrer noopener">Hugo</a>. -->
+	</small>
+</footer>
+
+<!-- {{ $script_main := resources.Get "js/lightbox.js" | minify | fingerprint }}
+{{- $style := resources.Get "sass/lightbox.css" | minify | fingerprint -}}
+<script src="{{ $script_main.Permalink }}"></script>
+<link href="{{ $style.RelPermalink }}" rel="stylesheet"> -->
