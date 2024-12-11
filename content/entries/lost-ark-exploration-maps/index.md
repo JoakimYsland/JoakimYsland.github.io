@@ -11,11 +11,17 @@ Each Region is organized into albums. To navigate between maps, use keyboard lef
 
 ---
 
-{{<figure src="https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-South.jpg">}}
+{{<figure src="https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Prideholme.jpg">}}
+{{<figure src="https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-South.jpg" caption="Caption">}}
+
+[Hello](https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-North.jpg)
+
+Hello2 [Testing](https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-Toxiclaw-Cavern.jpg) 123
+
 
 | Rethramis         | Yudia               |
 | ----------------- | ------------------- |
-| [Prideholme](https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-South.jpg)        | Saland Hill (South) |
+| [Prideholme](https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Ankumo-Mountain.jpg)        | Saland Hill (South) |
 | Loghill (South)   | Saland Hill (North) |
 | Loghill (North)   | — Morai Ruins       |
 | — Toxiclaw Cavern | Ozhorn Hill         |
