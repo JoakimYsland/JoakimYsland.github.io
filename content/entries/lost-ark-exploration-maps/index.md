@@ -12,6 +12,10 @@ Each Region is organized into albums. To navigate between maps, use keyboard lef
 ---
 
 {{<figure src="https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-South.jpg">}}
+{{<figure src="https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-South.jpg" alt="Alt">}}
+{{<figure src="https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-South.jpg" title="Title">}}
+{{<figure src="https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-South.jpg" caption="Caption">}}
+[Hello](https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-South.jpg)
 
 | Rethramis         | Yudia               |
 | ----------------- | ------------------- |
