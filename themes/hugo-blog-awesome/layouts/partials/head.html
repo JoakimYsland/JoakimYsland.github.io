@@ -8,16 +8,14 @@
 	{{ partial "meta/main.html" . }}
 	{{ hugo.Generator }}
 
-	{{/*	<!-- Permalink & RSSlink -->	*/}}
-
+	<!-- Permalink & RSSlink -->
 	<link rel="canonical" href="{{ .Permalink }}">
 	{{- with .OutputFormats.Get "RSS" }}
 	<link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
 	<link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}">
 	{{- end -}}
 
-	{{/*	Styles	*/}}
-
+	<!-- Styles -->
 	{{- $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint -}}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 	{{- $code_syntax_highlight_css := resources.Get "code-highlight.css" | minify | fingerprint -}}
@@ -29,8 +27,7 @@
 
 	<link rel="stylesheet" href={{ "css/hugo-easy-gallery.css" | relURL }} />
 
-	{{/*	Favicons	*/}}
-
+	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
@@ -41,7 +38,7 @@
 	<meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
 
-	{{/*	SVG favicon for the modern web	*/}}
+	<!-- SVG favicon for the modern web -->
 	<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
 
 	{{/*	Katex support (enabled on on specific pages). See 'helpers/katex.html' for more info.	 */}}
