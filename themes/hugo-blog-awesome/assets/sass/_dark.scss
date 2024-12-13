@@ -43,8 +43,10 @@ body[data-theme="dark"]
 		background-color: $dark-inline-code-bg;
 	}
 
-	// horizontal rule
-	hr { border-color: $dark-light; }
+	hr // Horizontal Rule
+	{
+		border-color: #404040;
+	}
 
 	.post-meta
 	{
