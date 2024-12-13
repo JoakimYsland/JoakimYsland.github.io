@@ -101,6 +101,13 @@
 		margin-right: 9px;
 	}
 
+	// Hide theme mode switcher button and separator
+	div.trigger ul.trigger-container li.menu-separator, 
+	div.trigger a#mode
+	{
+		display: none;
+	}
+
 	.menu-trigger { display: none; }
 	.menu-icon { display: none; }
 
