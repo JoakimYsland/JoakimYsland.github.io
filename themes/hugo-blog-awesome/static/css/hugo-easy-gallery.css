@@ -50,6 +50,12 @@ Grid Layout Styles
 	}
 }
 
+div.gallery, 
+:not(div.gallery) > .box
+{
+	margin-bottom: 15px;
+}
+
 /*
 Transition styles
 */
