@@ -527,7 +527,10 @@
 				return c = j > da.min[a] || j < da.max[a] ? i.panEndFriction : 1, j = pa[a] + b[a] * c, !i.allowPanToNext && s !== f.currItem.initialZoomLevel || (ea ? "h" !== ga || "x" !== a || X || (k ? (j > da.min[a] && (c = i.panEndFriction, h = da.min[a] - j, d = da.min[a] - oa[a]), (d <= 0 || m < 0) && ac() > 1 ? (g = l, m < 0 && l > nb.x && (g = nb.x)) : da.min.x !== da.max.x && (e = j)) : (j < da.max[a] && (c = i.panEndFriction, h = j - da.max[a], d = oa[a] - da.max[a]), (d <= 0 || m > 0) && ac() > 1 ? (g = l, m > 0 && l < nb.x && (g = nb.x)) : da.min.x !== da.max.x && (e = j))) : g = l, "x" !== a) ? void(fa || $ || s > f.currItem.fitRatio && (pa[a] += b[a] * c)) : (void 0 !== g && (Ka(g, !0), $ = g !== nb.x), da.min.x !== da.max.x && (void 0 !== e ? pa.x = e : $ || (pa.x += b.x * c)), void 0 !== g)
 			},
 			Ob = function(a) {
-				if (!("mousedown" === a.type && a.button > 0)) {
+				// This check was originally a.type === "mousedown". 
+				// Changing it to "pointerdown" seems to have disabled 
+				// right-click zoom as desired without any side-effects
+				if (!(a.type === "pointerdown" && a.button > 0)) {
 					if ($b) return void a.preventDefault();
 					if (!U || "mousedown" !== a.type) {
 						if (Eb(a, !0) && a.preventDefault(), Da("pointerDown"), F) {
