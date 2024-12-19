@@ -1,3 +1,4 @@
+
 body[data-theme="dark"]
 {
 	// color: $dark-text-base-color;
@@ -119,11 +120,9 @@ body[data-theme="dark"]
 		.post-item-date { color: $dark-white; }
 		.post-item-title
 		{
-			a
+			a:not(:hover)
 			{
-				color: $dark-text-base-color;
-
-				&:hover, &focus { color: $dark-white; }
+				color: #99999b;
 			}
 		}
 	}

@@ -1,4 +1,41 @@
-.list-page .post-year
+
+.list-page
 {
-	padding-bottom: .5rem;
+	article:has(+h2) // Last article of the year
+	{
+		margin-bottom: 30px;
+	}
+
+	.post-item
+	{
+		display: flex;
+		padding-top: 5px;
+		padding-bottom: 6px;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+		font-weight: 400;
+
+		&:not(:first-child) { border-top: 1px solid $light; }
+
+		.post-item-date
+		{
+			min-width: 96px;
+			color: $black;
+
+			@include media-query($on-mobile) { font-size: 16px; }
+		}
+
+		.post-item-title
+		{
+			margin: 0;
+			border: 0;
+			padding: 0;
+
+			a:not(:hover)
+			{
+				color: $text-base-color;
+			}
+		}
+	}
 }
