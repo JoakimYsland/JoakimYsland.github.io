@@ -103,9 +103,9 @@ strong, b // strong | bold
 
 hr // Horizontal Rule
 {
-	// border-bottom: 0;
 	border-style: solid;
 	border-color: $light;
+	margin-bottom: 15px;
 }
 
 img

@@ -1,0 +1,33 @@
+
+.wrapper
+{
+	max-width: 750px;
+}
+
+.map-list
+{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.map-region
+{
+	width: 33%;
+}
+
+.map-region h2
+{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.map-region a:not(:hover)
+{
+	color: #99999b !important;
+}
+
+.map-region p
+{
+	color: #a6a6a640;
+}
