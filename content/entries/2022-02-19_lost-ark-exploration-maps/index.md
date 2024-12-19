@@ -11,24 +11,16 @@ Each Region is organized into albums. To navigate between maps, use keyboard lef
 
 ---
 
-{{<figure src="https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Prideholme.jpg">}}
-{{<figure src="https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-South.jpg" caption="Caption">}}
-
-[Hello](https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-North.jpg)
-
-Hello2 [Testing](https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Loghill-Toxiclaw-Cavern.jpg) 123
-
-
-| Rethramis         | Yudia               |
-| ----------------- | ------------------- |
-| [Prideholme](https://joakimysland.com/wp-content/uploads/2022/02/Lost-Ark-%E2%80%93-Rethramis-Ankumo-Mountain.jpg)        | Saland Hill (South) |
-| Loghill (South)   | Saland Hill (North) |
-| Loghill (North)   | — Morai Ruins       |
-| — Toxiclaw Cavern | Ozhorn Hill         |
-| Ankumo Mountain   | — Sapira Cave       |
-| — Aquilok’s Head  |                     |
-| Rethramis Border  |                     |
-| — Aquilok’s Tail  |                     |
+| Rethramis                                                   | Yudia               |
+| ----------------------------------------------------------- | ------------------- |
+| [Prideholme](assets/rethramis/1_prideholme.jpg)             | Saland Hill (South) |
+| [Loghill (South)](assets/rethramis/2_loghill-south)         | Saland Hill (North) |
+| [Loghill (North)](assets/rethramis/3_loghill-north.jpg)     | — Morai Ruins       |
+| — [Toxiclaw Cavern](assets/rethramis/4_toxiclaw-cavern.jpg) | Ozhorn Hill         |
+| [Ankumo Mountain](assets/rethramis/5_ankumo-mountain.jpg)   | — Sapira Cave       |
+| — [Aquilok’s Head](assets/rethramis/6_aquiloks-head.jpg)    |                     |
+| [Rethramis Border](assets/rethramis/7_rethramis-border.jpg) |                     |
+| — [Aquilok’s Tail](assets/rethramis/8_aquiloks-tail.jpg)    |                     |
 
 | West Luterra       | East Luterra              |
 | ------------------ | ------------------------- |

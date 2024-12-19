@@ -15,6 +15,11 @@ th
     font-weight: 400 !important;
 }
 
+table a
+{
+	color: #99999b;
+}
+
 div.page-content h1
 {
     border-bottom: 2px solid #404040;
