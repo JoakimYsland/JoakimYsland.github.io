@@ -21,6 +21,7 @@ html
 {
 	overflow-x: hidden;
 	width: 100%;
+	scroll-padding-top: 10%;
 }
 
 body,
@@ -37,11 +38,14 @@ figure
 	padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6, 
+pre, ul, ol, dl,
+blockquote,
+figure
 {
 	padding: 0;
 	margin: 0;
-	margin-top: 14px;
+	margin-bottom: 15px;
 
 	color: $black;
 	font-weight: 300;
@@ -85,16 +89,6 @@ body // Basic styling
 	box-sizing: border-box;
 }
 
-// Set `margin-bottom` to maintain vertical rhythm
-h1, h2, h3, h4, h5, h6,
-pre, ul, ol, dl,
-blockquote,
-figure
-{
-	margin-top: $spacing-full - 20;
-	margin-bottom: $spacing-full - 20;
-}
-
 strong, b // strong | bold
 {
 	font-weight: $bold-weight;
@@ -103,9 +97,9 @@ strong, b // strong | bold
 
 hr // Horizontal Rule
 {
-	// border-bottom: 0;
 	border-style: solid;
 	border-color: $light;
+	margin-bottom: 15px;
 }
 
 img

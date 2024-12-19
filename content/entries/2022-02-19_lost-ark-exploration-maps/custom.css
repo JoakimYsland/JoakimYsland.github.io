@@ -1,0 +1,33 @@
+
+.wrapper
+{
+	max-width: 750px; /* Make the page wider */
+}
+
+.map-list
+{
+	/* Initialize flexbox */
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.map-region
+{
+	flex-grow: 1; /* Fill width */
+	width: 33%; /* 3 columns */
+	min-width: 200px;
+	margin-bottom: 15px;
+}
+
+.map-region a:not(:hover)
+{
+	color: #99999b !important; /* Neutral default color for links */
+}
+
+.map-region p
+{
+	color: #a6a6a650; /* Darken text that is non-link */
+}
