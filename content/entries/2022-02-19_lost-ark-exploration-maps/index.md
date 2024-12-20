@@ -315,3 +315,155 @@ Each Region is organized into albums. To navigate between maps, use keyboard lef
 		</p>
 	</div>
 </div>
+
+<details>
+<summary>Change Log</summary>
+<p>2022.11.06<br>
+– Added Exploration Map for Astella</p>
+
+<p>2022.09.05<br>
+– Added Exploration Map for Starlight Isle</p>
+
+<p>2022.09.03<br>
+– Added Exploration Map for Kalthertz</p>
+
+<p>2022.05.28<br>
+– Added Exploration Maps for Promise Isle, Twilight Isle, and Kharmine’s Lair</p>
+
+<p>2022.05.27<br>
+– Added Exploration Maps for Rohendel</p>
+
+<p>2022.05.22<br>
+– Added Exploration Maps for Shadow Island, and Wisdom Isle</p>
+
+<p>2022.05.14<br>
+– Added Exploration Maps for Lost City, Reminiscence Isle, and Facility X-301</p>
+
+<p>2022.05.13<br>
+– Added Exploration Map for Runaways Island</p>
+
+<p>2022.04.27<br>
+– Added Exploration Map for Tooki Corporation</p>
+
+<p>2022.04.22<br>
+– Added Exploration Maps for Island of Time and Forpe</p>
+
+<p>2022.04.19<br>
+– Added Exploration Maps for Vrad’s Hideout, Icewing Heights, and Maze of Mirrors<br>
+– Added Exploration Map for Gravis<br>
+– Revised Exploration Map for Lagoon Island</p>
+
+<p>2022.04.18<br>
+– Added Exploration Maps for Frostpeak Temple and Lake Eternity<br>
+– Added Exploration Maps for Liebeheim and Aiwana Island</p>
+
+<p>2022.04.16<br>
+– Added Exploration Map for Iceblood Plateau and Totopia</p>
+
+<p>2022.04.14<br>
+– Added Exploration Maps for Rigens Village and Bitterwind Hill</p>
+
+<p>2022.04.12<br>
+– Added Exploration Map for Frozen Sea</p>
+
+<p>2022.04.10<br>
+– Added Exploration Maps for Atlas, Serenity Isle, and Mercia</p>
+
+<p>2022.04.09<br>
+– Added Exploration Maps for Balankar Mountains and Ancient Elveria<br>
+– Revised Exploration Map for Fesnar Highland<br>
+– Added Exploration Map for Opportunity Isle, Revelry Row, and Sunflower Island</p>
+
+<p>2022.04.04<br>
+– Added Exploration Maps for Fesnar Highland
+
+<p>2022.04.03<br>
+– Added Exploration Maps for Vernese Forest and Gorgon’s Nest</p>
+
+<p>2022.04.01<br>
+– Revised Exploration Maps for Vern Castle and Rania Village<br>
+– Added Exploration Map for Parna Forest</p>
+
+<p>2022.03.30<br>
+– Added Exploration Map for Rania Village</p>
+
+<p>2022.03.29<br>
+– Added Exploration Maps for Port Krona and Vern Castle</p>
+
+<p>2022.03.26<br>
+– Added Exploration Maps for Verdantier and Red Sand Desert<br>
+– Added Exploration Maps for Phantomwing Island and Lagoon Island</p>
+
+<p>2022.03.24<br>
+– Revised Exploration Maps for Blackfang’s Den, Lullaby Island, and Freedom Isle</p>
+
+<p>2022.03.23<br>
+– Revised Exploration Maps for Yudia<br>
+– Added Dr. Bergstrom’s Laboratory and Riza Falls Exploration Maps</p>
+
+<p>2022.03.21<br>
+– Added Totrich Exploration Map</p>
+
+<p>2022.03.17<br>
+– Added Windbringer Hills Exploration Map</p>
+
+<p>2022.03.16<br>
+– Added Heart of Sceptrum Exploration Map</p>
+
+<p>2022.03.15<br>
+– Added Nebelhorn Exploration Map</p>
+
+<p>2022.03.14<br>
+– Added Scraplands and Soldier Ant Nest Exploration Maps</p>
+
+<p>2022.03.13<br>
+– Added Exploration Map for Origins of Stern</p>
+
+<p>2022.03.12<br>
+– Revised Rethramis Exploration Maps</p>
+
+<p>2022.03.11<br>
+– Added Lullaby Island and Blackfang’s Den Exploration Maps</p>
+
+<p>2022.03.09<br>
+– Added Arid Path and Freedom Isle Exploration Maps</p>
+
+<p>2022.03.08<br>
+– Added Prisma Valley Exploration Map</p>
+
+<p>2022.03.07<br>
+– Added Twilight Mists, Foul Hollow, and Bleak Edge Exploration Maps<br>
+– Added quick navigation for Exploration Maps page</p>
+
+<p>2022.03.06<br>
+– Added Melody Forest and Jeok’s Barrier Exploration Maps<br>
+– Revised Rethramis Exploration Maps</p>
+
+<p>2022.03.05<br>
+– Added Rattan Hill and Yeon’s Barrier Exploration Maps<br>
+– Revised Port City Changhun Exploration Map</p>
+
+<p>2022.03.04<br>
+– Added Delphi Township Exploration Map</p>
+
+<p>2022.03.03<br>
+– Added Port City Changhun Exploration Map</p>
+
+<p>2022.03.01<br>
+– Added Tortoyk Exploration Maps</p>
+
+<p>2022.02.28<br>
+– Added missing foodstuff to Prideholme Exploration Map</p>
+
+<p>2022.02.25<br>
+– Added East Luterra Exploration Maps</p>
+
+<p>2022.02.22<br>
+– Added West Luterra Exploration Maps</p>
+
+<p>2022.02.20<br>
+– Added Yudia Exploration Maps</p>
+
+<p>2022.02.19<br>
+– Added Rethramis Exploration Maps</p>
+</details>

@@ -22,6 +22,7 @@ html
 	overflow-x: hidden;
 	width: 100%;
 	scroll-padding-top: 10%;
+	scroll-behavior: smooth;
 }
 
 body,
@@ -260,4 +261,46 @@ table
 		border: 0;
 		tr, td { border: 0; }
 	}
+}
+
+details
+{
+	background-color: #00000033;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+}
+
+details > summary
+{
+	user-select: none;
+	cursor: pointer;
+	list-style: none;
+	font-weight: 500;
+}
+
+details[open] > summary
+{
+	margin-bottom: 15px;
+}
+
+details > summary:hover
+{
+	color: #eab111;
+}
+
+details > summary::before
+{
+	content: '+';
+	font-size: 30px;
+	padding-right: 10px;
+	vertical-align: bottom;
+	// vertical-align: middle;
+	// position: relative;
+	// top: -2px;
+}
+
+details[open] > summary::before
+{
+	content: '–';
+	// top: -4px;
 }
