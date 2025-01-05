@@ -18,7 +18,7 @@
 {
 	flex-grow: 1; /* Fill width */
 	width: 33%; /* 3 columns */
-	min-width: 200px;
+	flex-basis: 200px;
 	margin-bottom: 15px;
 }
 
